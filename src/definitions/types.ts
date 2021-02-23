@@ -14,9 +14,9 @@ export type Character = {
   }
   habits: string
   health: number
+  inventory: string[]
   money: number
   name: string
-  inventory: string[]
   omens: {
     notation: string
     total: number
