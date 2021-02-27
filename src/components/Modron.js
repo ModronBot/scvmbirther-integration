@@ -35,7 +35,7 @@ function Modron({ character }) {
     let body, headers, response
 
     body = JSON.stringify(character)
-    headers = { authorization }
+    headers = { authorization, 'content-type': 'application/json' }
 
     setStatus(Status.PENDING)
 
